@@ -1,0 +1,15 @@
+{
+  "title": "Cell Biology Review",
+  "subject": "Biology",
+  "questions": [
+    {
+      "question": "What is the main function of the cell membrane?",
+      "answer": "It controls what enters and leaves the cell, helping maintain a stable internal environment.",
+      "keywords": ["controls movement", "in and out", "stable environment"]
+    },
+    {
+      "question": "Where does photosynthesis take place in plant cells?",
+      "answer": "Photosynthesis takes place in chloroplasts, which contain the light-absorbing pigment chlorophyll."
+    }
+  ]
+}
