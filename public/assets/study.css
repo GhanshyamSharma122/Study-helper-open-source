@@ -1,0 +1,28 @@
+:root { font-family: Arial, Helvetica, sans-serif; color: #18181b; background: #f4f4f5; line-height: 1.5; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f4f4f5; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+.wrap { width: min(100% - 32px, 1080px); margin: 0 auto; padding: 40px 0 72px; }
+.page-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; margin-bottom: 28px; }
+h1 { margin: 0; font-size: clamp(30px, 5vw, 46px); letter-spacing: -.04em; }
+h2, h3 { margin-top: 0; }
+.muted { color: #71717a; }
+.card { background: #fff; border: 1px solid #d4d4d8; border-radius: 12px; padding: 22px; margin-bottom: 18px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+label { display: grid; gap: 6px; font-weight: 700; font-size: 14px; }
+input, textarea, select { width: 100%; border: 1px solid #a1a1aa; border-radius: 8px; padding: 11px 12px; color: #18181b; background: #fff; }
+textarea { min-height: 150px; resize: vertical; }
+input:focus, textarea:focus, select:focus { outline: 2px solid #71717a; outline-offset: 1px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.btn { border: 1px solid #18181b; border-radius: 8px; padding: 10px 15px; background: #18181b; color: #fff; font-weight: 700; }
+.btn.secondary { background: #fff; color: #18181b; border-color: #a1a1aa; }
+.set-list { display: grid; gap: 10px; }
+.set-button { width: 100%; text-align: left; border: 1px solid #d4d4d8; border-radius: 8px; padding: 14px; background: #fff; color: #18181b; }
+.set-button:hover, .btn.secondary:hover { background: #f4f4f5; }
+.question { border-top: 1px solid #e4e4e7; padding: 20px 0; }
+.question:first-child { border-top: 0; padding-top: 0; }
+.answer { margin-top: 10px; padding: 12px; background: #f4f4f5; border-radius: 8px; }
+.status { min-height: 24px; color: #52525b; }
+.error { color: #b91c1c; }
+@media (max-width: 640px) { .wrap { width: min(100% - 24px, 1080px); padding-top: 24px; } .page-header, .grid { display: block; } .page-header > * { margin-bottom: 14px; } .grid > * { margin-bottom: 14px; } }
