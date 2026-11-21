@@ -5,11 +5,16 @@ Study Helper is an open-source quiz and study application for students. It suppo
 ## Features
 
 - Create and practice quizzes.
+- Generate multiple-choice quizzes from text or PDF files.
+- Create quizzes manually or import quiz questions from JSON.
+- Add more questions to an existing quiz.
 - Practice question-and-answer sets.
 - Track mistakes.
-- Import and export question sets as JSON.
+- Edit and export question-and-answer sets as JSON.
 - Generate questions with an OpenAI-compatible local AI endpoint.
 - Extract text from PDFs.
+
+The quiz dashboard includes the original QuizCraft workflow for multiple-choice quizzes. The Q&A and mistake-practice pages remain available from the dashboard.
 
 ## Requirements
 

@@ -11,7 +11,10 @@ test("serves the study helper frontend", async () => {
         const body = await response.text()
 
         assert.equal(response.status, 200)
-        assert.match(body, /Study|study/i)
+        assert.match(body, /QuizCraft AI|Interactive Quizzes/i)
+
+        const themeResponse = await fetch(`http://127.0.0.1:${port}/theme.css`)
+        assert.equal(themeResponse.status, 200)
     } finally {
         await new Promise((resolve) => server.close(resolve))
     }
